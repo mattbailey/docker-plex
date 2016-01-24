@@ -1,4 +1,4 @@
-FROM debian:wheezy
+FROM debian:latest
 MAINTAINER Matt Bailey <m@mdb.io>
 #Thanks to https://github.com/bydavy/docker-plex/blob/master/Dockerfile and https://github.com/aostanin/docker-plex/blob/master/Dockerfile
 
