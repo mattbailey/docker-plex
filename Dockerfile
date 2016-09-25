@@ -11,7 +11,7 @@ RUN apt-get -q update && apt-get install -qy --force-yes curl
 
 RUN echo "deb http://shell.ninthgate.se/packages/debian plexpass main" > /etc/apt/sources.list.d/plexmediaserver.list
 
-RUN curl http://shell.ninthgate.se/packages/shell-ninthgate-se-keyring.key | apt-key add -
+RUN curl http://shell.ninthgate.se/packages/shell.ninthgate.se.gpg.key | apt-key add -
 
 RUN apt-get -q update && apt-get install -qy --force-yes plexmediaserver
 
